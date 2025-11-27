@@ -44,6 +44,7 @@ export default defineConfig({
     ["meta", { name: "keywords", description }],
   ],
   markdown: {
+    breaks: true,  // 启用 GFM 换行（单个换行符也会换行）
     // 开启行号
     lineNumbers: true,
     image: {
