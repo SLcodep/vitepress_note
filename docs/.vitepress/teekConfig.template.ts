@@ -35,9 +35,9 @@ export const teekConfig = defineTeekConfig({
   // 代码块配置
   codeBlock: {
     enabled: true, // 是否启用新版代码块
-    collapseHeight: 700, // 超出高度后自动折叠，设置 true 则默认折叠，false 则默认不折叠
+    collapseHeight: 200, // 超出高度后自动折叠，设置 true 则默认折叠，false 则默认不折叠
     overlay: false, // 代码块底部是否显示展开/折叠遮罩层
-    overlayHeight: 400, // 当出现遮罩层时，指定代码块显示高度，当 overlay 为 true 时生效
+    overlayHeight: 200, // 当出现遮罩层时，指定代码块显示高度，当 overlay 为 true 时生效
     langTextTransform: "uppercase", // 语言文本显示样式，为 text-transform 的值:none, capitalize, lowercase, uppercase
     copiedDone: TkMessage => TkMessage.success("复制成功！"), // 复制代码完成后的回调
   },
