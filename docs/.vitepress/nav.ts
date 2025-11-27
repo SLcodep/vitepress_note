@@ -11,8 +11,29 @@ export const nav: DefaultTheme.NavItem[] = [
   },
   { 
     text: "前端基础", 
-    link: "/qianduan/css", 
-    activeMatch: "/05.前端基础笔记/" 
+    items: [
+      { text: "css", link: "/qianduan/css" },
+      { text: "javascript", link: "/qianduan/javascript" },
+      { text: "浏览器原理", link: "/browser/01" },
+      { text: "计算机网络", link: "/network/01" },
+    ]
+  },
+  {
+    text: "Vue",
+    link: "/vue/01",
+    activeMatch: "/10.Vue/"
+  },
+  {
+    text: "性能优化",
+    link: "/performance/overview",
+    activeMatch: "/20.性能优化/"
+  },
+  {
+    text: "工具使用",
+    items: [
+      { text: "Git", link: "/Git/fisrt" },
+      { text: "前端部署", link: "/deploy/fisrt" }
+    ]
   },
   {
     text: "功能页",
