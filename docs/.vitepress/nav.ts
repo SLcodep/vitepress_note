@@ -11,7 +11,7 @@ export const nav: DefaultTheme.NavItem[] = [
   },
   { 
     text: "前端基础", 
-    link: "/qianduan/qianduan-index", 
+    link: "/qianduan/css", 
     activeMatch: "/05.前端基础笔记/" 
   },
   {

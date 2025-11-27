@@ -218,7 +218,7 @@ export const teekConfig = defineTeekConfig({
       },
     ],
     // 自定义额外信息
-    appendInfo: [{ key: "index", label: "站点作者", value: "Teeker" }],
+    appendInfo: [{ key: "index", label: "站点作者", value: "SLcodep" }],
   },
   articleBanner: {
     enabled: true, // 是否启用单文章页 Banner
