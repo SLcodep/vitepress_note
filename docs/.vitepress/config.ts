@@ -26,7 +26,7 @@ export default defineConfig({
     ["link", { rel: "icon", type: "image/png", href: "/teek-logo-mini.png" }],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:locale", content: "zh-CN" }],  // 声明页面语言是「简体中文」
-    ["meta", { property: "og:title", content: "Teek | VitePress Theme" }], 
+    ["meta", { property: "og:title", content: "Teek | VitePress Theme" }],
     ["meta", { property: "og:site_name", content: "Teek" }],
     ["meta", { property: "og:image", content: "" }],
     ["meta", { property: "og:url", content: "" }],

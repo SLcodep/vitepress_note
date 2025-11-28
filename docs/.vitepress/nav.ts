@@ -9,8 +9,8 @@ export const nav: DefaultTheme.NavItem[] = [
     link: "/reference/config",
     activeMatch: "/01.配置/",
   },
-  { 
-    text: "前端基础", 
+  {
+    text: "前端基础",
     items: [
       { text: "css", link: "/qianduan/css" },
       { text: "javascript", link: "/qianduan/javascript" },
@@ -20,7 +20,7 @@ export const nav: DefaultTheme.NavItem[] = [
   },
   {
     text: "Vue",
-    link: "/vue/01",
+    link: "/vue/基础部分",
     activeMatch: "/10.Vue/"
   },
   {
