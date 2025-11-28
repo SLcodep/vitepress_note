@@ -34,7 +34,8 @@ export const nav: DefaultTheme.NavItem[] = [
     text: "工具使用",
     items: [
       { text: "Git", link: "/Git/fisrt" },
-      { text: "前端部署", link: "/deploy/fisrt" }
+      { text: "前端部署", link: "/deploy/fisrt" },
+      { text: "其他操作", link: "/qian/npm" }
     ]
   },
   {
