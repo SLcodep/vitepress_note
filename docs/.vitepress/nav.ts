@@ -16,6 +16,8 @@ export const nav: DefaultTheme.NavItem[] = [
       { text: "javascript", link: "/qianduan/javascript" },
       { text: "浏览器原理", link: "/browser/01" },
       { text: "计算机网络", link: "/network/01" },
+      { text: "设计模式", link: "/qian/design" },
+      { text: "手写题", link: "/qian/write" },
     ]
   },
   {
