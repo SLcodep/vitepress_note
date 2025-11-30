@@ -22,7 +22,7 @@ export const nav: DefaultTheme.NavItem[] = [
   },
   {
     text: "Vue",
-    link: "/vue/基础部分",
+    link: "/vue/简介",
     activeMatch: "/10.Vue/"
   },
   {
