@@ -30,6 +30,11 @@ export const nav: DefaultTheme.NavItem[] = [
     link: "/performance/overview",
     activeMatch: "/20.性能优化/"
   },
+    {
+    text: "前端工程化",
+    link: "/enginee/简介",
+    activeMatch: "/25.前端工程化/"
+  },
   {
     text: "工具使用",
     items: [
