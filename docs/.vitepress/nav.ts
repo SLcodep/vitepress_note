@@ -18,30 +18,35 @@ export const nav: DefaultTheme.NavItem[] = [
       { text: "计算机网络", link: "/network/01" },
       { text: "设计模式", link: "/qian/design" },
       { text: "手写题", link: "/qian/write" },
-    ]
+    ],
   },
   {
     text: "Vue",
     link: "/vue/简介",
-    activeMatch: "/10.Vue/"
+    activeMatch: "/10.Vue/",
   },
   {
     text: "性能优化",
     link: "/performance/overview",
-    activeMatch: "/20.性能优化/"
+    activeMatch: "/20.性能优化/",
   },
-    {
+  {
     text: "前端工程化",
     link: "/enginee/简介",
-    activeMatch: "/25.前端工程化/"
+    activeMatch: "/25.前端工程化/",
   },
   {
     text: "工具使用",
     items: [
       { text: "Git", link: "/Git/fisrt" },
       { text: "前端部署", link: "/deploy/fisrt" },
-      { text: "其他操作", link: "/qian/npm" }
-    ]
+      { text: "其他操作", link: "/qian/npm" },
+    ],
+  },
+  {
+    text: "AI",
+    link: "/AI/MCP",
+    activeMatch: "/45.AI/",
   },
   {
     text: "功能页",
@@ -54,6 +59,6 @@ export const nav: DefaultTheme.NavItem[] = [
         link: "/risk-link?target=https://vp.teek.top",
       },
     ],
-  }
+  },
 ];
 
