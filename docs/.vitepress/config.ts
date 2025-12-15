@@ -1,13 +1,11 @@
 import { defineConfig } from "vitepress";
 import llmstxt from "vitepress-plugin-llms";
 import { teekConfig } from "./teekConfig";
-import {nav} from "./nav"
+import { nav } from "./nav";
 
-const description = [
-  "欢迎来到我个人笔记记录",
-].toString();
+const description = ["欢迎来到我个人笔记记录"].toString();
 
-const base = "/vitepress_note/"
+const base = "/vitepress_note/";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -25,7 +23,7 @@ export default defineConfig({
     ],
     ["link", { rel: "icon", type: "image/png", href: "/teek-logo-mini.png" }],
     ["meta", { property: "og:type", content: "website" }],
-    ["meta", { property: "og:locale", content: "zh-CN" }],  // 声明页面语言是「简体中文」
+    ["meta", { property: "og:locale", content: "zh-CN" }], // 声明页面语言是「简体中文」
     ["meta", { property: "og:title", content: "Teek | VitePress Theme" }],
     ["meta", { property: "og:site_name", content: "Teek" }],
     ["meta", { property: "og:image", content: "" }],
@@ -44,7 +42,7 @@ export default defineConfig({
     ["meta", { name: "keywords", description }],
   ],
   markdown: {
-    breaks: true,  // 启用 GFM 换行（单个换行符也会换行）
+    breaks: true, // 启用 GFM 换行（单个换行符也会换行）
     // 开启行号
     lineNumbers: true,
     image: {
@@ -83,7 +81,7 @@ export default defineConfig({
     returnToTopLabel: "返回顶部",
     lastUpdatedText: "上次更新时间",
     outline: {
-      level: [2, 5],
+      level: [2, 3],
       label: "本页导航",
     },
     docFooter: {
