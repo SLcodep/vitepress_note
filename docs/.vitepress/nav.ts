@@ -1,5 +1,5 @@
 // .vitepress/navConfig.ts
-import type { DefaultTheme } from 'vitepress';
+import type { DefaultTheme } from "vitepress";
 
 // 定义导航配置（复用 VitePress 内置类型，保证类型提示）
 export const nav: DefaultTheme.NavItem[] = [
@@ -49,6 +49,11 @@ export const nav: DefaultTheme.NavItem[] = [
     activeMatch: "/45.AI/",
   },
   {
+    text: "面试问题合集",
+    link: "/qianduan/JS面试",
+    activeMatch: "/50.面试题目合集/",
+  },
+  {
     text: "功能页",
     items: [
       { text: "归档页", link: "/archives" },
@@ -61,4 +66,3 @@ export const nav: DefaultTheme.NavItem[] = [
     ],
   },
 ];
-
