@@ -54,6 +54,11 @@ export const nav: DefaultTheme.NavItem[] = [
     activeMatch: "/50.面试题目合集/",
   },
   {
+    text: "项目总结",
+    link: "/qianduan/京山桥米项目",
+    activeMatch: "/60.项目总结/",
+  },
+  {
     text: "功能页",
     items: [
       { text: "归档页", link: "/archives" },
